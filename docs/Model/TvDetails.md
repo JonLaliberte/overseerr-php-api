@@ -1,0 +1,45 @@
+# TvDetails
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **float** |  | [optional] 
+**backdrop_path** | **string** |  | [optional] 
+**poster_path** | **string** |  | [optional] 
+**content_ratings** | [**\Swagger\Client\Model\TvDetailsContentRatings**](TvDetailsContentRatings.md) |  | [optional] 
+**created_by** | [**\Swagger\Client\Model\TvDetailsCreatedBy[]**](TvDetailsCreatedBy.md) |  | [optional] 
+**episode_run_time** | **float[]** |  | [optional] 
+**first_air_date** | **string** |  | [optional] 
+**genres** | [**\Swagger\Client\Model\Genre[]**](Genre.md) |  | [optional] 
+**homepage** | **string** |  | [optional] 
+**in_production** | **bool** |  | [optional] 
+**languages** | **string[]** |  | [optional] 
+**last_air_date** | **string** |  | [optional] 
+**last_episode_to_air** | [**\Swagger\Client\Model\Episode**](Episode.md) |  | [optional] 
+**name** | **string** |  | [optional] 
+**next_episode_to_air** | [**\Swagger\Client\Model\Episode**](Episode.md) |  | [optional] 
+**networks** | [**\Swagger\Client\Model\ProductionCompany[]**](ProductionCompany.md) |  | [optional] 
+**number_of_episodes** | **float** |  | [optional] 
+**number_of_season** | **float** |  | [optional] 
+**origin_country** | **string[]** |  | [optional] 
+**original_language** | **string** |  | [optional] 
+**original_name** | **string** |  | [optional] 
+**overview** | **string** |  | [optional] 
+**popularity** | **float** |  | [optional] 
+**production_companies** | [**\Swagger\Client\Model\ProductionCompany[]**](ProductionCompany.md) |  | [optional] 
+**production_countries** | [**\Swagger\Client\Model\MovieDetailsProductionCountries[]**](MovieDetailsProductionCountries.md) |  | [optional] 
+**spoken_languages** | [**\Swagger\Client\Model\SpokenLanguage[]**](SpokenLanguage.md) |  | [optional] 
+**seasons** | [**\Swagger\Client\Model\Season[]**](Season.md) |  | [optional] 
+**status** | **string** |  | [optional] 
+**tagline** | **string** |  | [optional] 
+**type** | **string** |  | [optional] 
+**vote_average** | **float** |  | [optional] 
+**vote_count** | **float** |  | [optional] 
+**credits** | [**\Swagger\Client\Model\MovieDetailsCredits**](MovieDetailsCredits.md) |  | [optional] 
+**external_ids** | [**\Swagger\Client\Model\ExternalIds**](ExternalIds.md) |  | [optional] 
+**keywords** | [**\Swagger\Client\Model\Keyword[]**](Keyword.md) |  | [optional] 
+**media_info** | [**\Swagger\Client\Model\MediaInfo**](MediaInfo.md) |  | [optional] 
+**watch_providers** | [**\Swagger\Client\Model\WatchProviders[]**](WatchProviders.md) |  | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
